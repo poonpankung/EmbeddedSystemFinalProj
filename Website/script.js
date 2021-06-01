@@ -24,7 +24,7 @@ function onMessageArrived(message) {
   var received_string = message.payloadString;
   setGaugeValue(gaugeElement, received_string/100);
 //  received_string = 100 - received_string;
-  received_string = received_string + "%";
+//  received_string = received_string + "%";
   
   //document.getElementById("description").innerHTML = received_string;
 }
